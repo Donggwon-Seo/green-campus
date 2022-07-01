@@ -1,0 +1,31 @@
+{
+  "name": "smart-green-campus",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeoDonggwon/green-campus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeoDonggwon/green-campus/issues"
+  },
+  "homepage": "https://github.com/SeoDonggwon/green-campus#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nunjucks": "^3.2.3",
+    "sequelize": "^6.21.1",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
