@@ -1,0 +1,33 @@
+{
+  "name": "smart-green-campus",
+  "version": "1.0.0",
+  "description": "스마트 그린 캠퍼스 API Server를 구현합니다.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon mysql-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2dongyeop/smart-green-campus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2dongyeop/smart-green-campus/issues"
+  },
+  "homepage": "https://github.com/2dongyeop/smart-green-campus#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nunjucks": "^3.2.3",
+    "sequelize": "^6.21.1",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
